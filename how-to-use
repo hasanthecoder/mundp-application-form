@@ -1,0 +1,16 @@
+WELCOME TO THE APPLICATION FORM CREATED BY HASAN MUHAMMED AKTAS
+
+* Follow the given 10 steps to run the app on your local server through XAMPP.
+
+1- Download XAMPP to your computer
+1.1- Turn on the xampp/general , xampp/services (apache, mysql), enable localhost and lastly mount xampp/volumes
+2- Copy this project to "htdocs" folder in the file that you will get when you mount the volumes through xampp app
+3- Open this project on your text editor through XAMPP/htdocs/stoff-application-form
+4- Go to your browser and launch localhost/phpmyadmin through address bar on the top
+5- When phpmyadmin opens, go and create a database named application-form
+6- Drag and drop the SQL file provided with the email to the application-form database that you created
+7- Do the necessary adjustments on the dbconnect.php to connect your database if necessary
+8- Insert your the email address that you will be using to send emails, and its password to the email.php
+9- Then launch the localhost/application-form/index.php through your browser
+10- You are all set. if you want to use a different E-Mail address to sent emails you can edit the email information in the email.php but dont forget to give the necessary rights through your email provider because some email services require additional settings to sent auto mails through php
+Enjoy :D
